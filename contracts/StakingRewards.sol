@@ -111,6 +111,17 @@ contract StakingRewards is ReentrancyGuard, Ownable {
         }
     }
 
+    function compoundReward() public nonReentrant updateReward(msg.sender) {
+        require(stakingToken == rewardsToken, "Staking and rewards token must be the same");
+        uint256 reward = rewards[msg.sender];
+        if (reward > 0) {
+            _totalSupply = _totalSupply.add(reward);
+            _balances[msg.sender] = _balances[msg.sender].add(reward);
+            rewards[msg.sender] = 0;
+            emit Staked(msg.sender, reward);
+        }
+    }
+
     function exit() external {
         withdraw(_balances[msg.sender]);
         getReward();
