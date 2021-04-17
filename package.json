@@ -10,7 +10,7 @@
     "ethers": "^5.0.24",
     "hardhat": "^2.1.1"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Contracts for the Baguette Dex.",
   "main": "index.js",
   "repository": {
