@@ -11,7 +11,7 @@ contract Bag {
     uint8 public constant decimals = 18;
 
     /// @notice Total number of tokens in circulation
-    uint public constant totalSupply = 1_000_000_000e18; // 1 billion BAG
+    uint public constant totalSupply = 250_000_000e18; // 250 million BAG
 
     /// @notice Allowance amounts on behalf of others
     mapping (address => mapping (address => uint96)) internal allowances;
