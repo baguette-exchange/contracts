@@ -22,7 +22,7 @@ library BaguetteLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'40231f6b438bce0797c9ada29b718a87ea0a5cea3fe9a771abdd76bd41a3e545' // init code hash
+                hex'81dbf51ab39dc634785936a3b34def28bf8007e6dfa30d4284c4b8547cb47a51' // init code hash
             ))));
     }
 
