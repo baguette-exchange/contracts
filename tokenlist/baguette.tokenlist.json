@@ -9,7 +9,7 @@
     ],
     "version": {
         "major": 2,
-        "minor": 4,
+        "minor": 5,
         "patch": 0
     },
     "tokens": [
@@ -84,7 +84,47 @@
             "name": "Tether USD",
             "symbol": "USDT",
             "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xde3A24028580884448a5397872046a019649b084/logo.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x6e7f5C0b9f4432716bDd0a77a3601291b9D9e985",
+            "decimals": 9,
+            "name": "Spore.Finance",
+            "symbol": "SPORE",
+            "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x6e7f5C0b9f4432716bDd0a77a3601291b9D9e985/logo.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x60781C2586D68229fde47564546784ab3fACA982",
+            "decimals": 18,
+            "name": "Pangolin",
+            "symbol": "PNG",
+            "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x60781C2586D68229fde47564546784ab3fACA982/logo.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0xC38f41A296A4493Ff429F1238e030924A1542e50",
+            "decimals": 18,
+            "name": "Snowball",
+            "symbol": "SNOB",
+            "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0xC38f41A296A4493Ff429F1238e030924A1542e50/logo.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x9E7890B2E2dE38D764A29b0DE1e2B9b37C90Ddb9",
+            "decimals": 9,
+            "name": "BillMaher.Finance",
+            "symbol": "BMF",
+            "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x9E7890B2E2dE38D764A29b0DE1e2B9b37C90Ddb9/logo.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x440aBbf18c54b2782A4917b80a1746d3A2c2Cce1",
+            "decimals": 18,
+            "name": "SHIBAVAX",
+            "symbol": "SIHBX",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/shibavax.png"
         }
     ],
-    "timestamp": "2021-02-09T17:49:00+00:00"
+    "timestamp": "2021-05-14T12:00:00+00:00"
 }
