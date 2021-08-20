@@ -9,7 +9,7 @@
     ],
     "version": {
         "major": 2,
-        "minor": 7,
+        "minor": 8,
         "patch": 0
     },
     "tokens": [
@@ -140,7 +140,15 @@
             "name": "LydiaFinance",
             "symbol": "LYD",
             "logoURI": "https://raw.githubusercontent.com/ava-labs/bridge-tokens/main/avalanche-tokens/0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084/logo.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5",
+            "decimals": 18,
+            "name": "BENQI",
+            "symbol": "QI",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/benqi.png"
         }
     ],
-    "timestamp": "2021-07-29T12:00:00+00:00"
+    "timestamp": "2021-08-20T12:00:00+00:00"
 }
