@@ -9,7 +9,7 @@
     ],
     "version": {
         "major": 2,
-        "minor": 8,
+        "minor": 9,
         "patch": 0
     },
     "tokens": [
@@ -148,7 +148,47 @@
             "name": "BENQI",
             "symbol": "QI",
             "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/benqi.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0xc7198437980c041c805a1edcba50c1ce5db95118",
+            "decimals": 6,
+            "name": "Tether USD",
+            "symbol": "USDT.e",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/usdt.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x5947bb275c521040051d82396192181b413227a3",
+            "decimals": 18,
+            "name": "Chainlink Token",
+            "symbol": "LINK.e",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/link.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+            "decimals": 18,
+            "name": "Wrapped Ether",
+            "symbol": "WETH.e",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/weth.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0xb1466d4cf0dcfc0bcddcf3500f473cdacb88b56d",
+            "decimals": 18,
+            "name": "Weble Ecosystem Token",
+            "symbol": "WET",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/wet.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x59414b3089ce2af0010e7523dea7e2b35d776ec7",
+            "decimals": 18,
+            "name": "Yak Token",
+            "symbol": "YAK",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/yak.png"
         }
     ],
-    "timestamp": "2021-08-20T12:00:00+00:00"
+    "timestamp": "2021-08-29T12:00:00+00:00"
 }
