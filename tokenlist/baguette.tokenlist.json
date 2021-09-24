@@ -9,7 +9,7 @@
     ],
     "version": {
         "major": 2,
-        "minor": 9,
+        "minor": 10,
         "patch": 0
     },
     "tokens": [
@@ -188,7 +188,31 @@
             "name": "Yak Token",
             "symbol": "YAK",
             "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/yak.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0xe6ee049183b474ecf7704da3f6f555a1dcaf240f",
+            "decimals": 18,
+            "name": "NovaXSolarEnergy",
+            "symbol": "XSLR",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/xslr.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x70b4ae8eb7bd572fc0eb244cd8021066b3ce7ee4",
+            "decimals": 18,
+            "name": "NovaXCrystal",
+            "symbol": "XCRS",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/xcrs.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x4c1057455747e3ee5871d374fdd77a304ce10989",
+            "decimals": 18,
+            "name": "NovaXMetal",
+            "symbol": "XMTL",
+            "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/xmtl.png"
         }
     ],
-    "timestamp": "2021-08-29T12:00:00+00:00"
+    "timestamp": "2021-09-24T12:00:00+00:00"
 }
