@@ -9,7 +9,7 @@
     ],
     "version": {
         "major": 2,
-        "minor": 11,
+        "minor": 12,
         "patch": 0
     },
     "tokens": [
@@ -228,7 +228,15 @@
             "name": "USD Coin",
             "symbol": "USDC.e",
             "logoURI": "https://raw.githubusercontent.com/baguette-exchange/contracts/master/tokenlist/logos/usdc.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0x02fe8adc1b58a63ccb1bb8c39930dcedd7cef4db",
+            "decimals": 18,
+            "name": "https://twitter.com/AvalancheVoid",
+            "symbol": "VOID",
+            "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x02fE8adC1B58A63CCb1Bb8c39930DCEdD7cEF4dB/logo.png"
         }
     ],
-    "timestamp": "2021-10-01T12:00:00+00:00"
+    "timestamp": "2021-12-01T12:00:00+00:00"
 }
