@@ -236,6 +236,14 @@
             "name": "https://twitter.com/AvalancheVoid",
             "symbol": "VOID",
             "logoURI": "https://raw.githubusercontent.com/pangolindex/tokens/main/assets/0x02fE8adC1B58A63CCb1Bb8c39930DCEdD7cEF4dB/logo.png"
+        },
+        {
+            "chainId": 43114,
+            "address": "0xCd426834D733e5B4bFFC89D3f21FA7e16D0Bf583",
+            "decimals": 18,
+            "name": "Avacash.Finance CASH",
+            "symbol": "CASH",
+            "logoURI": "https://github.com/avacash/tokenlist/raw/main/Artboard%201%20-%20cyan%20background.png"
         }
     ],
     "timestamp": "2021-12-01T12:00:00+00:00"
