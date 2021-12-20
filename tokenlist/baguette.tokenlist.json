@@ -9,7 +9,7 @@
     ],
     "version": {
         "major": 2,
-        "minor": 12,
+        "minor": 13,
         "patch": 0
     },
     "tokens": [
@@ -246,5 +246,5 @@
             "logoURI": "https://github.com/avacash/tokenlist/raw/main/Artboard%201%20-%20cyan%20background.png"
         }
     ],
-    "timestamp": "2021-12-01T12:00:00+00:00"
+    "timestamp": "2021-12-20T12:00:00+00:00"
 }
