@@ -8,8 +8,8 @@
         "bridge"
     ],
     "version": {
-        "major": 2,
-        "minor": 13,
+        "major": 3,
+        "minor": 0,
         "patch": 0
     },
     "tokens": [
@@ -244,7 +244,39 @@
             "name": "Avacash.Finance CASH",
             "symbol": "CASH",
             "logoURI": "https://github.com/avacash/tokenlist/raw/main/Artboard%201%20-%20cyan%20background.png"
+        },
+        {
+            "chainId": 6942069,
+            "address": "0x2b601c1fa15750045bf776632da53166782016b0",
+            "decimals": 18,
+            "name": "Wrapped CSHP",
+            "symbol": "WCSHP",
+            "logoURI": "https://subnet.cryptoseals.art/logo192.png"
+        },
+        {
+            "chainId": 6942069,
+            "address": "0xd602a2386ede7ce09af0c65a31d44d6001140b4d",
+            "decimals": 18,
+            "name": "Wrapped GOLD",
+            "symbol": "w.GOLD",
+            "logoURI": "https://subnet.cryptoseals.art/assets/wgold.png"
+        },
+        {
+            "chainId": 6942069,
+            "address": "0x796e9809a9a5cfc1608e55685ffee04761542781",
+            "decimals": 18,
+            "name": "Wrapped ESSENCE",
+            "symbol": "w.ESSENCE",
+            "logoURI": "https://subnet.cryptoseals.art/assets/wessence.png"
+        },
+        {
+            "chainId": 6942069,
+            "address": "0x1dc552db5ea828ad41c188f536cc114f1b5dfe86",
+            "decimals": 18,
+            "name": "Wrapped MATERIAL",
+            "symbol": "w.MATERIAL",
+            "logoURI": "https://subnet.cryptoseals.art/assets/w.material.png"
         }
     ],
-    "timestamp": "2021-12-20T12:00:00+00:00"
+    "timestamp": "2022-02-05T12:00:00+00:00"
 }
