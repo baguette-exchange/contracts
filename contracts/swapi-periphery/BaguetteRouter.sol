@@ -1,7 +1,7 @@
 pragma solidity =0.6.6;
 
-import '../baguette-core/interfaces/IBaguetteFactory.sol';
-import '../baguette-lib/libraries/TransferHelper.sol';
+import '../swapi-core/interfaces/IBaguetteFactory.sol';
+import '../swapi-lib/libraries/TransferHelper.sol';
 
 import './interfaces/IBaguetteRouter.sol';
 import './libraries/BaguetteLibrary.sol';
@@ -96,7 +96,7 @@ contract BaguetteRouter is IBaguetteRouter {
         assert(IWAVAX(WAVAX).transfer(pair, amountAVAX));
         liquidity = IBaguettePair(pair).mint(to);
         // refund dust AVAX, if any
-        if (msg.value > amountAVAX) TransferHelper.safeTransferAVAX(msg.sender, msg.value - amountAVAX);
+        if (msg.value > amountAVAX) TransferHelper.safeTransferETH(msg.sender, msg.value - amountAVAX);
     }
 
     // **** REMOVE LIQUIDITY ****
@@ -136,7 +136,7 @@ contract BaguetteRouter is IBaguetteRouter {
         );
         TransferHelper.safeTransfer(token, to, amountToken);
         IWAVAX(WAVAX).withdraw(amountAVAX);
-        TransferHelper.safeTransferAVAX(to, amountAVAX);
+        TransferHelper.safeTransferETH(to, amountAVAX);
     }
     function removeLiquidityWithPermit(
         address tokenA,
@@ -188,7 +188,7 @@ contract BaguetteRouter is IBaguetteRouter {
         );
         TransferHelper.safeTransfer(token, to, IERC20(token).balanceOf(address(this)));
         IWAVAX(WAVAX).withdraw(amountAVAX);
-        TransferHelper.safeTransferAVAX(to, amountAVAX);
+        TransferHelper.safeTransferETH(to, amountAVAX);
     }
     function removeLiquidityAVAXWithPermitSupportingFeeOnTransferTokens(
         address token,
@@ -279,7 +279,7 @@ contract BaguetteRouter is IBaguetteRouter {
         );
         _swap(amounts, path, address(this));
         IWAVAX(WAVAX).withdraw(amounts[amounts.length - 1]);
-        TransferHelper.safeTransferAVAX(to, amounts[amounts.length - 1]);
+        TransferHelper.safeTransferETH(to, amounts[amounts.length - 1]);
     }
     function swapExactTokensForAVAX(uint amountIn, uint amountOutMin, address[] calldata path, address to, uint deadline)
         external
@@ -296,7 +296,7 @@ contract BaguetteRouter is IBaguetteRouter {
         );
         _swap(amounts, path, address(this));
         IWAVAX(WAVAX).withdraw(amounts[amounts.length - 1]);
-        TransferHelper.safeTransferAVAX(to, amounts[amounts.length - 1]);
+        TransferHelper.safeTransferETH(to, amounts[amounts.length - 1]);
     }
     function swapAVAXForExactTokens(uint amountOut, address[] calldata path, address to, uint deadline)
         external
@@ -313,7 +313,7 @@ contract BaguetteRouter is IBaguetteRouter {
         assert(IWAVAX(WAVAX).transfer(BaguetteLibrary.pairFor(factory, path[0], path[1]), amounts[0]));
         _swap(amounts, path, to);
         // refund dust AVAX, if any
-        if (msg.value > amounts[0]) TransferHelper.safeTransferAVAX(msg.sender, msg.value - amounts[0]);
+        if (msg.value > amounts[0]) TransferHelper.safeTransferETH(msg.sender, msg.value - amounts[0]);
     }
 
     // **** SWAP (supporting fee-on-transfer tokens) ****
@@ -396,7 +396,7 @@ contract BaguetteRouter is IBaguetteRouter {
         uint amountOut = IERC20(WAVAX).balanceOf(address(this));
         require(amountOut >= amountOutMin, 'BaguetteRouter: INSUFFICIENT_OUTPUT_AMOUNT');
         IWAVAX(WAVAX).withdraw(amountOut);
-        TransferHelper.safeTransferAVAX(to, amountOut);
+        TransferHelper.safeTransferETH(to, amountOut);
     }
 
     // **** LIBRARY FUNCTIONS ****

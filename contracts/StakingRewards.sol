@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity ^0.7.6;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -6,7 +7,7 @@ import "@openzeppelin/contracts/math/SafeMath.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
-import "./baguette-core/interfaces/IBaguetteERC20.sol";
+import "./swapi-core/interfaces/IBaguetteERC20.sol";
 
 
 // https://docs.synthetix.io/contracts/source/contracts/stakingrewards
@@ -35,7 +36,7 @@ contract StakingRewards is ReentrancyGuard, Ownable {
     constructor(
         address _rewardsToken,
         address _stakingToken
-    ) public {
+    ) {
         rewardsToken = IERC20(_rewardsToken);
         stakingToken = IERC20(_stakingToken);
     }

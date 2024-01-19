@@ -1,7 +1,8 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 pragma solidity >=0.5.0;
 
-import '../../baguette-core/interfaces/IBaguettePair.sol';
-import '../../baguette-lib/libraries/FixedPoint.sol';
+import '../../swapi-core/interfaces/IBaguettePair.sol';
+import '../../swapi-lib/libraries/FixedPoint.sol';
 
 // library with helper methods for oracles that are concerned with computing average prices
 library BaguetteOracleLibrary {

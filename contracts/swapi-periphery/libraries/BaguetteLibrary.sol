@@ -1,7 +1,7 @@
 pragma solidity >=0.5.0;
 
-import '../../baguette-core/interfaces/IBaguetteFactory.sol';
-import '../../baguette-core/interfaces/IBaguettePair.sol';
+import '../../swapi-core/interfaces/IBaguetteFactory.sol';
+import '../../swapi-core/interfaces/IBaguettePair.sol';
 
 import "./SafeMath.sol";
 
