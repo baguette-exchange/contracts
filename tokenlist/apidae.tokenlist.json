@@ -288,6 +288,7 @@
             "symbol": "stMATIC",
             "decimals": 18,
             "address": "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
+            "logoURI": "https://polygonscan.com/token/images/lidostmatic_32.png",
             "tags": [
                 "pos",
                 "erc20",
