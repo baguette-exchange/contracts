@@ -192,7 +192,7 @@
         },
         {
             "chainId": 137,
-            "name": "Quickswap",
+            "name": "Quickswap - old",
             "symbol": "QUICK",
             "decimals": 18,
             "address": "0x831753dd7087cac61ab5644b308642cc1c33dc13",
